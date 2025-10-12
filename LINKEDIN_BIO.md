@@ -1,0 +1,1 @@
+Technical Red-Teamer in training. I create reproducible lab write-ups, detection rules and automation to help blue teams improve detection and response. Passionate about Active Directory, Python automation and clear, actionable reporting. Practicing ethically in authorized environments only.

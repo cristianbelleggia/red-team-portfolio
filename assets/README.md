@@ -1,0 +1,1 @@
+Metti qui immagini, diagrammi e screenshot (senza dati sensibili).

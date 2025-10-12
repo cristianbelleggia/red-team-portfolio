@@ -1,0 +1,19 @@
+# Sigma-like example rule (educational)
+title: Multiple Failed Logins
+id: example-0001
+description: Example rule that detects a high volume of failed login messages
+author: Your Name
+status: experimental
+logsource:
+  product: linux
+  service: auth
+detection:
+  selection:
+    Message|contains:
+      - 'failed login'
+      - 'authentication failure'
+  condition: selection
+level: medium
+tags:
+  - detection
+  - authentication
