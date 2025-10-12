@@ -1,24 +1,33 @@
-# Red Team Portfolio (starter repo)
+# Red Team Portfolio — Cristian Belleggia
 
-This repository is a starter kit to build your ethical red-team portfolio.
-It contains case study templates, lab write-ups, detection rule examples, and a small benign log analysis tool.
+This repository contains authorized lab write-ups, benign analysis tools, and example detection rules aimed at improving detection and response capabilities.
 
-## Structure
-- projects/       -> examples of authorized lab write-ups and projects
-- tools/          -> safe automation and analysis utilities
-- detection/      -> example rules (Sigma-like) and correlations
-- reports/        -> case study and executive report templates
-- assets/         -> screenshots, diagrams, documents
-- CV.md           -> example technical CV (customize)
-- LINKEDIN_BIO.md -> example LinkedIn bio
+## About me
+- **Name:** Cristian Belleggia  
+- **Age:** 18  
+- **Background:** Computer Science student (in progress) with strong programming skills and extensive hands-on experience on TryHackMe and HackTheBox.  
+- **Contact:** cristian.redteam@gmail.com — https://www.linkedin.com/in/cristian-belleggia-170a20369/
 
-## How to use
-1. Unzip and review the files.
-2. Fill `projects/` with your write-ups (authorized labs only).
-3. Keep offensive tooling OUT of public repos; only include safe automation or detection code.
-4. Use `tools/log_parser.py` as an example of automation for log analysis.
+## Certifications
+- OSCP — Offensive Security Certified Professional  
+- eJPT — eLearnSecurity Junior Penetration Tester  
+- eCPPT — eLearnSecurity Certified Professional Penetration Tester  
+- CRTP — Certified Red Team Professional  
+- CRTO — Certified Red Team Operator  
+- SANS SEC565 — Red Team Operations and Adversary Emulation  
+- PEN-300 (OSEP) — Offensive Security Experienced Penetration Tester  
+- OSWE — Offensive Security Web Expert  
+- OSCE — Offensive Security Certified Expert
 
-## Ethics & Safety
-- Practice only in authorized environments (TryHackMe, HackTheBox, personal labs).
-- Do not publish exploits, sensitive data, or real client information.
-- Document authorization and scope in your case studies.
+## Repository structure
+- `projects/` — case studies and lab write-ups (authorized lab environments only).  
+- `tools/` — safe automation and analysis utilities (no offensive payloads).  
+- `detection/` — example Sigma‑like detection rules for SIEMs.  
+- `reports/` — case study and executive report templates.  
+- `assets/` — anonymized screenshots and diagrams.
+
+## Quick example: run the log analysis tool
+This repo contains a benign example script for parsing logs.
+
+```bash
+python3 tools/log_parser.py sample_logs/example.log -o reports/log_report.json
