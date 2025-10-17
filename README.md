@@ -9,15 +9,9 @@ This repository contains authorized lab write-ups, benign analysis tools, and ex
 - **Contact:** cristian.redteam@gmail.com — https://www.linkedin.com/in/cristian-belleggia-170a20369/
 
 ## Certifications
-- OSCP — Offensive Security Certified Professional  
+- laurea informatica(in corso)
 - eJPT — eLearnSecurity Junior Penetration Tester  
-- eCPPT — eLearnSecurity Certified Professional Penetration Tester  
-- CRTP — Certified Red Team Professional  
-- CRTO — Certified Red Team Operator  
-- SANS SEC565 — Red Team Operations and Adversary Emulation  
-- PEN-300 (OSEP) — Offensive Security Experienced Penetration Tester  
-- OSWE — Offensive Security Web Expert  
-- OSCE — Offensive Security Certified Expert
+
 
 ## Repository structure
 - `projects/` — case studies and lab write-ups (authorized lab environments only).  
