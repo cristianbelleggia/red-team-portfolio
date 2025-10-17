@@ -1,0 +1,8 @@
+body { font-family: Arial, sans-serif; margin:0; background:#0f1720; color:#e6eef8; }
+.hero { text-align:center; padding:40px 20px; background:rgba(255,255,255,0.03); }
+.avatar { width:100px; height:100px; border-radius:12px; margin-bottom:10px; }
+h1{margin:6px 0 4px;font-size:28px;}
+.subtitle{color:#94a3b8;margin:0 0 12px;}
+.card { background:rgba(255,255,255,0.02); padding:16px; margin:16px auto; max-width:900px; border-radius:12px; }
+ul{padding-left:20px;}
+a{color:#60a5fa;text-decoration:none;}
